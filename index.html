@@ -257,8 +257,28 @@
                                 />
                             </div>
                             <div class="card-actions">
-                                <button class="btn">Details</button>
+                                <button
+                                    class="btn"
+                                    onclick="my_modal_1.showModal()"
+                                >
+                                    open modal
+                                </button>
                             </div>
+
+                            <!-- modal -->
+                            <dialog id="my_modal_1" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <h3 class="font-bold text-lg">Hello!</h3>
+                                    <p class="py-4">
+                                        Press ESC key or click the button below
+                                        to close
+                                    </p>
+                                    <div class="modal-action">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn">Close</button>
+                                    </div>
+                                </form>
+                            </dialog>
                         </div>
                     </div>
                     <div class="card border border-gray-200">
@@ -302,7 +322,12 @@
                                 />
                             </div>
                             <div class="card-actions">
-                                <button class="btn">Details</button>
+                                <button
+                                    class="btn"
+                                    onclick="my_modal_1.showModal()"
+                                >
+                                    open modal
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -347,7 +372,12 @@
                                 />
                             </div>
                             <div class="card-actions">
-                                <button class="btn">Details</button>
+                                <button
+                                    class="btn"
+                                    onclick="my_modal_1.showModal()"
+                                >
+                                    open modal
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -392,7 +422,12 @@
                                 />
                             </div>
                             <div class="card-actions">
-                                <button class="btn">Details</button>
+                                <button
+                                    class="btn"
+                                    onclick="my_modal_1.showModal()"
+                                >
+                                    open modal
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -501,7 +536,9 @@
                 <div class="flex items-center gap-5">
                     <div>
                         <div class="flex gap-4 items-center my-8">
-                            <div>
+                            <div
+                                class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                            >
                                 <i class="fa-solid fa-users"></i>
                             </div>
                             <div>
@@ -518,8 +555,10 @@
                             </div>
                         </div>
                         <div class="flex gap-4 items-center my-8">
-                            <div>
-                                <i class="fa-solid fa-users"></i>
+                            <div
+                                class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                            >
+                                <i class="fa-solid fa-heart"></i>
                             </div>
                             <div>
                                 <h3 class="text-xl font-bold">
@@ -535,8 +574,10 @@
                             </div>
                         </div>
                         <div class="flex gap-4 items-center my-8">
-                            <div>
-                                <i class="fa-solid fa-users"></i>
+                            <div
+                                class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                            >
+                                <i class="fa-solid fa-gift"></i>
                             </div>
                             <div>
                                 <h3 class="text-xl font-bold">
@@ -556,55 +597,91 @@
                         <img src="images/whychoose1.png" alt="" />
                     </div>
                     <div>
-                        <div class="flex gap-4 items-center my-8">
-                            <div>
-                                <i class="fa-solid fa-users"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">
-                                    Dedicated Team
-                                </h3>
+                        <div class="my-8">
+                            <div class="flex justify-end text-right">
                                 <div
-                                    class="border-b-2 w-14 border-gray-400 my-2"
-                                ></div>
-                                <p>
-                                    Professional employees are there for you to
-                                    pick the most amazing and fresh fruits.
-                                </p>
+                                    class="flex justify-end gap-5 items-center"
+                                >
+                                    <div>
+                                        <h3 class="text-xl font-bold">
+                                            Dedicated Team
+                                        </h3>
+                                        <div class="flex justify-end text-end">
+                                            <p
+                                                class="border-b-2 border-gray-400 my-2 w-14"
+                                            ></p>
+                                        </div>
+
+                                        <p>
+                                            Professional employees are there for
+                                            you to pick the most amazing and
+                                            fresh fruits.
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                                    >
+                                        <i class="fa-solid fa-gifts"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex gap-4 items-center my-8">
-                            <div>
-                                <i class="fa-solid fa-users"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">
-                                    Dedicated Team
-                                </h3>
+                        <div class="my-8">
+                            <div class="flex justify-end text-right">
                                 <div
-                                    class="border-b-2 w-14 border-gray-400 my-2"
-                                ></div>
-                                <p>
-                                    Professional employees are there for you to
-                                    pick the most amazing and fresh fruits.
-                                </p>
+                                    class="flex justify-end gap-5 items-center"
+                                >
+                                    <div>
+                                        <h3 class="text-xl font-bold">
+                                            Dedicated Team
+                                        </h3>
+                                        <div class="flex justify-end text-end">
+                                            <p
+                                                class="border-b-2 border-gray-400 my-2 w-14"
+                                            ></p>
+                                        </div>
+
+                                        <p>
+                                            Professional employees are there for
+                                            you to pick the most amazing and
+                                            fresh fruits.
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                                    >
+                                        <i class="fa-solid fa-ice-cream"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex justify-end gap-4 items-center my-8">
-                            <div>
-                                <i class="fa-solid fa-users"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold">
-                                    Dedicated Team
-                                </h3>
+                        <div class="my-8">
+                            <div class="flex justify-end text-right">
                                 <div
-                                    class="border-b-2 w-14 border-gray-400 my-2"
-                                ></div>
-                                <p>
-                                    Professional employees are there for you to
-                                    pick the most amazing and fresh fruits.
-                                </p>
+                                    class="flex justify-end gap-5 items-center"
+                                >
+                                    <div>
+                                        <h3 class="text-xl font-bold">
+                                            Dedicated Team
+                                        </h3>
+                                        <div class="flex justify-end text-end">
+                                            <p
+                                                class="border-b-2 border-gray-400 my-2 w-14"
+                                            ></p>
+                                        </div>
+
+                                        <p>
+                                            Professional employees are there for
+                                            you to pick the most amazing and
+                                            fresh fruits.
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="flex items-center justify-center w-14 h-10 text-white rounded rounded-3xl bg-slate-400"
+                                    >
+                                        <i class="fa-solid fa-thumbs-up"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -613,10 +690,10 @@
         </main>
 
         <!-- Footer section -->
-        <footer class="bg-black ">
+        <footer class="bg-black">
             <div class="max-w-4xl mx-auto py-40">
-                <div class=" flex justify-center gap-5 items-center">
-                    <img src="images/logo.png" alt="">
+                <div class="flex justify-center gap-5 items-center">
+                    <img src="images/logo.png" alt="" />
                     <h2 class="text-white text-3xl font-bold">Fruit Burst</h2>
                 </div>
                 <ul class="flex gap-10 my-16 text-white text-sm justify-center">
@@ -627,25 +704,39 @@
                     <li><a href="">Support</a></li>
                     <li><a href="">My Account</a></li>
                 </ul>
-                <ul  class="flex gap-10 my-16 text-white text-3xl justify-center">
-                    <li><a href="">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a></li>
-                    <li><a href="">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a></li>
-                    <li><a href="">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a></li>
-                    <li><a href="">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a></li>
-                    <li><a href="">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a></li>
-                    <li><a href="">
-                        <i class="fa-brands fa-apple"></i>
-                    </a></li>
+                <ul
+                    class="flex gap-10 my-16 text-white text-3xl justify-center"
+                >
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-apple"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </footer>
