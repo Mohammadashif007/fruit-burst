@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .flex {
-             display: flex; 
-            justify-content: end;
-            text-align: end; 
+        .border-1 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            color: wheat
+        }
+        .border-2 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            color: wheat;
         }
         .flex-second {
             display: flex;
-            align-items: center;
-            gap: 40px;
+            flex-direction: column-reverse;
+            gap: 30px;
         }
+
     </style>
 </head>
 <body>
@@ -22,12 +30,11 @@
         <div class="flex ">
             <div class="flex-second">
 
-                <div>
-                    <h1>Lorem ipsum dolor sit amet.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, inventore!</p>
+                <div class="border-1">
+                    <h1>upper part</h1>
                 </div>
-                <div>
-                    <p>sdfjladjfa</p>
+                <div class="border-2">
+                    <h1>down part</h1>
                 </div>
             </div>
         </div>
@@ -36,3 +43,6 @@
     </section>
 </body>
 </html>
+
+
+<!-- flex flex-col-reverse lg:flex md:flex  -->
